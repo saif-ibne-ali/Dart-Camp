@@ -11,7 +11,7 @@ void main() {
   print((a * day1.calculate()) / b);
   print(b / a);
   print(c);
+  
+  print(a*a+2*a*b+b*b);
 
-  double pie = 3.1416;
-  print(4 / 2 + 3);
 }
