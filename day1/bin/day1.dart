@@ -6,4 +6,5 @@ void main() {
   print(a + b + day1.calculate());
   print(day1.calculate() - a);
   print(a * b * day1.calculate());
+  print((a * day1.calculate()) ~/ b);
 }
