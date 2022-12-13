@@ -14,4 +14,9 @@ void main() {
 
   double pie = 3.1416;
   print(4 / 2 + 3);
+
+  //string Manipulation
+  String str1 = ' he says "i am learning dart."';
+  String str2 = " he says 'i am learning dart.'";
+  print(str1 + ' ' + str2);
 }
