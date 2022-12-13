@@ -8,7 +8,10 @@ void main() {
   print(a + b + day1.calculate());
   print(day1.calculate() - a);
   print(a * b * day1.calculate());
-  print((a * day1.calculate()) ~/ b);
+  print((a * day1.calculate()) / b);
   print(b / a);
   print(c);
+
+  double pie = 3.1416;
+  print(4 / 2 + 3);
 }
