@@ -26,4 +26,13 @@ void main() {
   uniqueFriends.addAll({'Rim','Jim','Faruk'});
   print(uniqueFriends);
   print(uniqueFriends.length);
+  print(uniqueFriends.elementAt(0));
+  print(uniqueFriends.first);
+  print(uniqueFriends.last);
+  print(uniqueFriends.isNotEmpty);
+  uniqueFriends.remove('Jim');
+  print(uniqueFriends);
+  uniqueFriends.clear();
+  print(uniqueFriends);
+  print(uniqueFriends.isNotEmpty);
 }
