@@ -1,5 +1,12 @@
-import 'package:day2/day2.dart' as day2;
+void main(){
 
-void main(List<String> arguments) {
-  print('Hello world: ${day2.calculate()}!');
+  int age =35;
+  if(age<20){
+    print('Go to first Doctor');
+  } else if(age > 30){
+    print('Go to second doctor');
+  } else{
+    print('Go to 3rd doctor');
+  }
+  print('Go to Home');
 }
