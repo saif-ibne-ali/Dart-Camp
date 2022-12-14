@@ -18,4 +18,7 @@ void main() {
   String str1 = ' he says "i am learning dart."';
   String str2 = " he says 'i am learning dart.'";
   print(str1 + ' ' + str2);
+
+  List<String> friends = ['Rahim','Karim','arif','arif'];
+  print(friends); //list is mutable, allow same multiple value.
 }
