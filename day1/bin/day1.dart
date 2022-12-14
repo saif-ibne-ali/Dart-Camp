@@ -17,8 +17,13 @@ void main() {
   //string Manipulation
   String str1 = ' he says "i am learning dart."';
   String str2 = " he says 'i am learning dart.'";
-  print(str1 + ' ' + str2);
+  print('$str1 $str2');
 
   List<String> friends = ['Rahim','Karim','arif','arif'];
   print(friends); //list is mutable, allow same multiple value.
+
+  Set<String> uniqueFriends = {'Rahim','Saif','Arif'};
+  uniqueFriends.addAll({'Rim','Jim','Faruk'});
+  print(uniqueFriends);
+  print(uniqueFriends.length);
 }
